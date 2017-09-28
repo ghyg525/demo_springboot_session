@@ -1,0 +1,23 @@
+##服务配置
+server:
+  port: 8082
+  
+## spring配置 
+spring: 
+  redis: ## redis配置
+    host: 192.168.40.13
+    port: 6379
+    database: 1
+    password: 
+    timeout: 1000
+    pool: 
+      minIdle: 0
+      maxIdle: 8
+      maxActive: 8
+      maxWait: -1
+
+## 日志配置
+logging:
+  level:
+    org:
+      springframework: info
