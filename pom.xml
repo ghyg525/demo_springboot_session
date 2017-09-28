@@ -3,12 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.yangjie</groupId>
-	<artifactId>springboot-redis</artifactId>
+	<artifactId>springboot-session</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-
-	<name>springboot-redis</name>
-	<url>http://maven.apache.org</url>
 
 	<properties>
 		<java.version>1.8</java.version>
